@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+
+.header {
+    background-color: rgb(218, 226, 252);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(116, 204, 207);
+    font-size: 44px;
+    font-weight: bold;
+}
+
+.nav a {
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(116, 204, 207);
+    margin: 0 12px;
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
