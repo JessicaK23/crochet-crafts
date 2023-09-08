@@ -9,13 +9,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 8px;
     margin: 0;
 }
 
 h1 {
-    color: rgb(113, 204, 207);
-    font-size: 44px;
+    color: rgb(106, 206, 209);
+    font-size: 48px;
     font-weight: bold;
 }
 
@@ -33,6 +33,7 @@ h1 {
 
 .section {
     text-align: center;
+    font-family:'Bellota', cursive;
 }
 
 .centered-text {
@@ -47,4 +48,10 @@ h1 {
     height: 590px;
     width: 500px;
     object-fit: cover;
+}
+
+.footer {
+    background-color:  rgb(208, 224, 248);
+    padding: 8px;
+    text-align: center;
 }
